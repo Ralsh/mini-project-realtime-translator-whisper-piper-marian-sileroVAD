@@ -1,0 +1,28 @@
+translator_project/
+│
+├── main.py
+├── config.py
+│
+├── audio/
+│   ├── microphone.py
+│   └── playback.py
+│
+├── vad/
+│   └── silero_vad.py
+│
+├── stt/
+│   └── whisper_engine.py
+│
+├── translation/
+│   └── marian_translator.py
+│
+├── tts/
+│   └── piper_engine.py
+│
+├── gui/
+│   └── app.py
+│
+└── core/
+    ├── queues.py
+    ├── events.py
+    └── controller.py
