@@ -57,15 +57,21 @@ TRANSLATION_MODELS = {
 # PIPER SETTINGS
 # =========================
 
-PIPER_MODEL_PATH = (
+PIPER_MODEL_PATH_RU = (
     "models/ru_RU-ruslan-medium.onnx"
 )
 
-PIPER_CONFIG_PATH = (
+PIPER_CONFIG_PATH_RU = (
     "models/ru_RU-ruslan-medium.onnx.json"
 )
 
+PIPER_MODEL_PATH_EN = (
+    "models/en_US-bryce-medium.onnx"
+)
 
+PIPER_CONFIG_PATH_EN = (
+    "models/en_US-bryce-medium.onnx.json"
+)
 # =========================
 # GUI SETTINGS
 # =========================
